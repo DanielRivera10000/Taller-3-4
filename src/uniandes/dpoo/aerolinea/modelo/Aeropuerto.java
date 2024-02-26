@@ -74,42 +74,32 @@ public class Aeropuerto
 		return nombre;
 	}
 
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
+
 
 	public String getCodigo() {
 		return codigo;
 	}
 
-	public void setCodigo(String codigo) {
-		this.codigo = codigo;
-	}
+
 
 	public String getNombreCiudad() {
 		return nombreCiudad;
 	}
 
-	public void setNombreCiudad(String nombreCiudad) {
-		this.nombreCiudad = nombreCiudad;
-	}
+
 
 	public double getLatitud() {
 		return latitud;
 	}
 
-	public void setLatitud(double latitud) {
-		this.latitud = latitud;
-	}
+
 
 	public double getLongitud() {
 		return longitud;
 	}
 
-	public void setLongitud(double longitud) {
-		this.longitud = longitud;
-	}
     
-    
+	
+
 
 }

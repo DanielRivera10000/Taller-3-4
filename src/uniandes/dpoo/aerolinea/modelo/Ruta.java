@@ -53,41 +53,38 @@ public class Ruta
 		return horaSalida;
 	}
 
-	public void setHoraSalida(String horaSalida) {
-		this.horaSalida = horaSalida;
-	}
+
 
 	public String getHoraLlegada() {
 		return horaLlegada;
 	}
 
-	public void setHoraLlegada(String horaLlegada) {
-		this.horaLlegada = horaLlegada;
-	}
+
 
 	public String getCodigoRuta() {
 		return codigoRuta;
 	}
 
-	public void setCodigoRuta(String codigoRuta) {
-		this.codigoRuta = codigoRuta;
-	}
+
 
 	public Aeropuerto getDestino() {
 		return destino;
 	}
 
-	public void setDestino(Aeropuerto destino) {
-		this.destino = destino;
-	}
+
 
 	public Aeropuerto getOrigen() {
 		return origen;
 	}
-
-	public void setOrigen(Aeropuerto origen) {
-		this.origen = origen;
+	
+	
+	
+	public int getDuracion() {
+		return 0;
+		
 	}
+
+
 
 
     

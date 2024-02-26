@@ -8,7 +8,12 @@ import org.json.JSONObject;
 public class ClienteCorporativo extends Cliente
 {
     // TODO completar
-    
+    public String CORPORTIVO = "Corporativo";
+	public int GRANDE = 1;
+    public int MEDIANA = 2;
+    public int PEQUEÑA = 3;
+	private String nombreEmpresa;
+    private int tamanoEmpresa;
 
 
     /**
@@ -37,4 +42,36 @@ public class ClienteCorporativo extends Cliente
         jobject.put( "tipo", CORPORATIVO );
         return jobject;
     }
+
+
+
+	public String getNombreEmpresa() {
+		return nombreEmpresa;
+	}
+
+
+	public int getTamanoEmpresa() {
+		return tamanoEmpresa;
+	}
+
+
+
+    
+	public String getIdentificador() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	public String getTipoCliente() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+	
+	
+	
+	
 }
